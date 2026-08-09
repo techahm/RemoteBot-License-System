@@ -1,0 +1,13 @@
+{
+  "licenses": [
+    {
+      "license_id": "DAmJUtZWikAf2CeLT4g0RQ_j",
+      "username": "arif1",
+      "password_hash": "fe58b9a0eac8c75ef1f0037629029ad5fbd76f0a4360955d43ff33cf0b158f7b",
+      "salt": "5qazp8MjQBJFBnLjXrFA4Q==",
+      "expiry": "2026-08-16",
+      "product": "RemoteBot",
+      "signature": "hhDT801djcbQ1T9F4bwBbVfwE8AuSeyS8LBP1WIPNjV/bQk1AWkdErd0Jr5UQRSuwY+Wgx2U04cZX1jcYMF2DA=="
+    }
+  ]
+}
