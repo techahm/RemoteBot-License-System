@@ -18,7 +18,9 @@ PRODUCT_NAME = "RemoteBot"
 # ==========================================================
 
 LICENSE_URL = (
-    "https://github.com/techahm/RemoteBot-License-System/blob/main/license_5vAdDkMgfUGAmUtGjVdrnO2-.json"
+    "https://raw.githubusercontent.com/"
+    "techahm/RemoteBot-License-System/"
+    "main/license_5vAdDkMgfUGAmUtGjVdrnO2-.json"
 )
 
 PUBLIC_KEY_FILE = "public_key.pem"
@@ -227,6 +229,56 @@ def secrets_compare(a, b):
     for x, y in zip(a.encode(), b.encode()):
         result |= x ^ y
 
+    return result == 0
+
+
+if __name__ == "__main__":
+
+    print("""
+╔══════════════════════════════════════════╗
+║       RemoteBot Login Verification       ║
+╚══════════════════════════════════════════╝
+""")
+
+    username = input(
+        "👤 Username: "
+    ).strip()
+
+    import getpass
+
+    password = getpass.getpass(
+        "🔐 Password: "
+    )
+
+    valid, result = verify_login(
+        username,
+        password
+    )
+
+    if valid:
+
+        print("\n✅ LOGIN SUCCESSFUL")
+
+        print(
+            "👤 Username:",
+            result["username"]
+        )
+
+        print(
+            "📅 Expiry:",
+            result["expiry"]
+        )
+
+        print(
+            "⏳ Remaining:",
+            result["remaining_days"],
+            "days"
+        )
+
+    else:
+
+        print("\n❌ ACCESS DENIED")
+        print("Reason:", result)
     return result == 0
 
 
