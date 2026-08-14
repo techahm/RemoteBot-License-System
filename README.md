@@ -5,7 +5,7 @@
 
 ## 📁 ফাইল লিস্ট
 ```
-remotebot_project/
+RemoteBot-License-System/
 ├── setup.sh       ← প্রথমে এটা রান করুন (একবারই)
 ├── remotebot.py   ← মেইন বট ফাইল
 ├── start.sh       ← বট চালু করুন (setup এর পরে তৈরি হবে)
@@ -22,7 +22,7 @@ remotebot_project/
 ### ধাপ ১ — Termux খুলুন এবং ফাইল কপি করুন
 ```bash
 # প্রজেক্ট ফোল্ডারে যান
-cd ~/remotebot
+cd ~/RemoteBot-License-System
 ```
 
 ### ধাপ ২ — Setup রান করুন
@@ -52,7 +52,7 @@ Setup শেষে জিজ্ঞেস করবে "এখনই চালু
 
 ## ▶️ পরবর্তীবার বট চালু করতে
 ```bash
-cd ~/remotebot
+cd ~/RemoteBot-License-System
 bash start.sh
 ```
 
