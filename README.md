@@ -22,6 +22,7 @@ RemoteBot-License-System/
 ### ধাপ ১ — Termux খুলুন এবং ফাইল কপি করুন
 ```bash
 # প্রজেক্ট ফোল্ডারে যান
+git clone https://github.com/techahm/RemoteBot-License-System.git
 cd ~/RemoteBot-License-System
 ```
 
