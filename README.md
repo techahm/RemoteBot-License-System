@@ -21,18 +21,11 @@ RemoteBot-License-System/
 
 ### ধাপ ১ — Termux খুলুন এবং ফাইল কপি করুন
 ```bash
-pkg update && pkg upgrade -y && pkg install wget git python -y && git clone https://github.com/techahm/RemoteBot-License-System.git
-```
-```bash
- # প্রজেক্ট ফোল্ডারে যান
-
-cd ~/RemoteBot-License-System
+pkg update && pkg upgrade -y && pkg install wget git python -y && git clone https://github.com/techahm/RemoteBot-License-System.git && cd ~/RemoteBot-License-System && bash setup.sh
 ```
 
 ### ধাপ ২ — Setup রান করুন
-```bash
-bash setup.sh
-```
+
 > এখানে আপনাকে জিজ্ঞেস করবে:
 > - 👤 License Username
 > - 🔐 License Password
