@@ -1,0 +1,22 @@
+{
+  "licenses": [
+    {
+      "license_id": "15A80759FD3F8698",
+      "username": "Free",
+      "password_hash": "77db648c36b85af0ed23dfbcd0004c62622b085c6bf8f1b8f3e6a160a8a4e7e2",
+      "salt": "UBY+Pu3V+nZCTs7LUBR8kpwywDLKWoXRYIsj55foOK8=",
+      "expiry": "2026-08-25",
+      "product": "RemoteBot",
+      "signature": "e5VJ9OnzfnrMqnV9rgcPWLA1AHGZ4aJBnwdMWS2+NcSwu0UqHpR1aTBwtvUd1cC0JP2rJ/gGHXYEPliV5x76PO8dUO6RaQ1nMkceBbTHd1rGxMbT2535rd+mny7X5TRzcmcl7OJOHHYj0TtzAwhk377HncFCMpxQ7EHUBaDM8qGeDQ7wB+/7PwJsj9wGURWXIRyk7iwmsxhL9FxtxicxRXep0X50rnT3ttSECw1XwSRBTyl2ZV7SwX1Xj6hhcpWamNdmKSHxO4d74vw3rg/y04vUaO6HVWH28XJMSoIdTrCLmCwB1f4gBW4bOVQeWW7gqpsFPxoZ8SNL4njxGFOJCg=="
+    },
+    {
+      "license_id": "83DA8173F24D52C9",
+      "username": "techahm",
+      "password_hash": "bb49a75b1233bd0ae85539b50bd759defaf9ad27fdff4c6a6345a79e5c0876d3",
+      "salt": "+ykhkPlsH8i7no85S6MNouj3dL2TuOZKNezQb4E04h8=",
+      "expiry": "2026-08-28",
+      "product": "RemoteBot",
+      "signature": "obvXL2HH10sUUwaRYERGAdjFtLTtGSSHr5wOE1hm9T5yV3hZkfSCj/eqTKpHR3YiLtavOKxtKZcojvq4QfrcUlOv7OhJl9SionnPlUrEjgxGIzs+p4V5HyixUU50hcKcaqO0EyFiGH2iCsFt8HQT7mnYOKuxxpII9YEfrZXjpP+IwbvV/4kG5VnKeXCJ87lw6lK3RahizDmdOqRKX0pI03raafZQDYeEdljeMT9SLumN4cLSxLKlwarTzSvgZXUtKMILO1FPzgbobA9zaOcnoGzQ0p7sxrX0fvc2DYvM9PtFgj0RqliBNWfjDNL0xxq9AkdDGMzLzpSkTr10SA/NqA=="
+    }
+  ]
+}
